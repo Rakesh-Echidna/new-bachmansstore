@@ -1,5 +1,6 @@
 #!/bin/bash
-npm install pm2 -g
-rm -Rf /var/www/*
-usermod -a -G nginx ec2-user
-gem install sass
+npm install
+bower install
+# rm -Rf /var/www/*
+# usermod -a -G nginx ec2-user
+# gem install sass
